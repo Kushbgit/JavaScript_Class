@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class="head">Welcome to the class</h1>
+
+    <button id="btn">Click here</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam debitis 
+        exercitationem ex porro tempora atque velit
+         incidunt quia error asperiores et commodi laborum quasi, nam labore?</p>
+
+    <button id="fin">Fade in</button>
+    <button id="fout">Fade out</button>
+    
+    <button id="tbtn">Fade out</button>
+
+    <script>
+        $(document).ready(function(){
+            let a = $('.head').html();
+            console.log(a);
+
+            $('#btn').click(()=>{
+                alert("This function is working");
+            });
+
+            $('#fin').click(()=>{
+                $('p').fadeIn(3000)
+            })
+
+            $('#fout').click(()=>{
+                $('p').fadeout(3000)
+            })
+
+            $('#tbtn').click(()=>{
+                $('p').toggle(3000)
+            })
+
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+}
+#bars,#close{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        height:96px;
+    }
+    .navbar ul li{
+        display: block;
+        background-color: yellow;
+        padding: 8px;
+    }
+    .navbar ul{
+        position: absolute;
+        display: none;
+        top: 30px;
+    }
+    #bars{
+        display: block;
+    }
+}

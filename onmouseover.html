@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Pattrick.jpg" alt="" height="100px" onmouseover="fun1()">
+    <img src="download.jpg" alt="" height="100px" onmouseover="fun2()">
+
+    <div>
+        <img src="Pattrick.jpg" alt="" id="taget">
+    </div>
+    
+    <script>
+        let img = document.getElementById ('taget');
+        function fun1(){
+            img.src="Pattrick.jpg";
+        }
+        function fun2(){
+            img.src="download.jpg";
+        }
+
+    </script>
+</body>
+</html>

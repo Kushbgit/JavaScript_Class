@@ -1,0 +1,33 @@
+.form{
+    background-color: peru;
+    padding: 20px;
+    padding-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+#name1{
+    margin-left: 16px;
+
+}
+#email{
+    margin-left: 21px;
+}
+#contact{
+    margin-left: 8px;
+}
+#dob{
+    margin-left: 23px;
+}
+#address{
+    margin-left: 5px;
+    padding: 15px;
+}
+#female, #other{
+    margin-left: 65px;
+}
+.button{
+
+    margin-left: 200px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let std = [
+            {
+                name:"Kush",age:56,location:'bhopal'
+            },
+            {
+                name:"mohit",age:46,location:'bhind'
+            },
+            {
+                name:"vedant",age:75,location:'ind'
+            },
+        ]
+        let out = std.map((f)=>{return f.name})
+        console.log(out);
+        let fil = std.filter((f)=>{return f.age>56})
+        console.log(fil);
+    </script>
+</body>
+</html>

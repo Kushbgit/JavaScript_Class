@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            margin-top: -510px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="OIP (1).jpg" alt="" height="100px" onmouseover="fun1()"> <br>
+        <img src="download (1).jpg" alt="" height="100px" onmouseover="fun2()"><br>
+        <img src="download (2).jpg" alt="" height="100px" onmouseover="fun3()"> <br>
+        <img src="download (3).jpg" alt="" height="100px" onmouseover="fun4()"> <br>
+        <img src="OIP.jpg" alt="" height="100px" onmouseover="fun5()"> <br>
+    </div>
+    
+    <button>-</button>
+    <h5>1</h5>
+    <button>+</button>
+    <div class="main">
+        <img src="OIP (1).jpg" alt="" id="taget" width="80%">
+    </div>
+    
+    <script>
+        let img = document.getElementById ('taget');
+        function fun1(){
+            img.src="OIP (1).jpg";
+        }
+        function fun2(){
+            img.src="download (1).jpg";
+        }
+        function fun3(){
+            img.src="download (2).jpg";
+        }
+        function fun4(){
+            img.src="download (3).jpg";
+        }
+        function fun5(){
+            img.src="OIP.jpg";
+        }
+
+
+    </script>
+</body>
+</html>

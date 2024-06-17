@@ -1,0 +1,19 @@
+.card{
+    height: 400px;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+   
+}
+.button{
+    height: 20px;
+    padding-top: 200px;
+    margin-left: -70px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
